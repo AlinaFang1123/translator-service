@@ -92,7 +92,7 @@ def get_language(post: str) -> str:
             return ""  # Return an empty string if no content parts
     else:
         return "" 
-    
+
 
 ################################################################################
 ################################################################################
@@ -185,8 +185,8 @@ def get_language(post: str) -> str:
 # ################################################################################
 
 
-def query_llm(post: str) -> tuple[bool, str]:
-  return ("english" in get_translation(post))
+def translate_content(post: str) -> tuple[bool, str]:
+  return ("english" in get_language(post).lower(), get_translation(post))
 
 # query_llm("Aquí está su primer ejemplo.")
 
