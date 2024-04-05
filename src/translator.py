@@ -74,7 +74,6 @@ def get_translation(post: str) -> str:
     else:
         return "" 
 
-
 def get_language(post: str) -> str:
     # Define the context and the post
     context = "What language is the post below?"
@@ -187,6 +186,8 @@ def get_language(post: str) -> str:
 
 def translate_content(post: str) -> tuple[bool, str]:
   return ("english" in get_language(post).lower(), get_translation(post))
+
+# print(translate_content("Aquí está su primer ejemplo."))
 
 # query_llm("Aquí está su primer ejemplo.")
 
