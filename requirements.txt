@@ -1,8 +1,12 @@
 Flask==3.0.0
 pytest==7.4.0
 google-cloud-aiplatform==1.44.0
+google-api-python-client
 pytest-mock==3.14.0
 ipytest==0.14.0
+torch==2.2.2
+sentence-transformers==2.2.0
 mock==5.1.0
 vertexai
-bigframes
+pytest-mock
+bigframes==0.26.0

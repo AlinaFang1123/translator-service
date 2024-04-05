@@ -1,6 +1,6 @@
 from typing import Callable
 import os
-api_key = os.environ["GOOGLE_API_KEY"]
+api_key = os.getenv["GOOGLE_API_KEY"]
 from google.cloud import aiplatform
 from google.oauth2 import service_account
 
