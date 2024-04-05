@@ -6,6 +6,7 @@ pytest-mock==3.14.0
 ipytest==0.14.0
 torch==2.2.2
 sentence-transformers==2.2.0
+google-generativeai
 mock==5.1.0
 vertexai
 pytest-mock
